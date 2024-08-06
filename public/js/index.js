@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Efecto de ondulación en botones
+   
     document.querySelectorAll('button').forEach(button => {
         button.addEventListener('click', function (e) {
             let ripple = document.createElement('span');
